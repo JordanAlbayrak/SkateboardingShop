@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['username'] = "";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +19,7 @@
     <br />
     <h3 align="center">Login</h3>
     <br />
-    <form method="post" action="selectOneRecord.php">
+    <form method="get" action="login.php">
         <label>Enter Username</label>
         <input type="text" name="username" class="form-control" />
         <br />
@@ -27,6 +31,34 @@
         <p align="center"><a href="registration_form.php">Register</a></p>
     </form>
 </div>
+
+<?php
+    include("_dbConnetion.php");
+
+    if(!empty($_GET['username']) && !empty($_GET['password'])) {
+        $username = $_GET['username'];
+        $pw = $_GET['password'];
+
+        $query = "SELECT * FROM users_tbl WHERE username = '". $username . "'";
+        $row = mysqli_query($conn, $query);
+
+        $record = mysqli_fetch_row($row);
+
+        if($record[4] == $pw){
+            $_SESSION['username'] = $record[3];
+            header("Location:entry.php");
+        }
+        else {
+            echo "<script>alert(\"Wrong User Details\")</script>";
+        }
+    }
+    else{
+        echo "<script>alert(\"Please input information in both fields\")</script>";
+    }
+
+    $conn->close();
+
+    ?>
 </body>
 
 </html>
