@@ -46,6 +46,3 @@ body {background-position: center;
     opacity: .5;
     transition: opacity .6s ease;
 }
-.searchButton {
-    background-color: white;
-}

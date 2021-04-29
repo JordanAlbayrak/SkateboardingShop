@@ -20,8 +20,8 @@
     else {
         echo "Error creating database: " . $conn->error;
     }
-    $sql_query = "CREATE TABLE IF NOT EXISTS users_tbl(
-    id INT auto_increment NOT NULL,
+    $sql_query = "CREATE TABLE IF NOT EXISTS users_tl(
+    id INT auto_increment NOT NULL,b
     firstName varchar(125),
     lastName varchar(125),
     username varchar(125) NOT NULL,
