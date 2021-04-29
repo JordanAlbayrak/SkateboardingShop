@@ -33,8 +33,12 @@ $_SESSION['username'] = "";
         $query = "SELECT * FROM users_tbl WHERE username = '". $username . "'";
         $row = mysqli_query($conn, $query);
 
+        var_dump($row);
         $record = mysqli_fetch_row($row);
 
+        var_dump($record);
+
+        echo $record;
         if($record[4] == $pw){
             $_SESSION['username'] = $record[3];
             header("Location:entry.php");
