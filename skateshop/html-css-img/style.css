@@ -1,8 +1,43 @@
-body {background-position: center;
+body {background-image: url(img/stickers.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Times New Roman, Helvetica, sans-serif;
-    background-color: #6c757d}
+    background-position: center;
+    background-attachment: fixed;
+
+
+    background-size: cover;/**/
+    font-family: Times New Roman, Helvetica, sans-serif;}
+
+.txt {background-color: white;}
+p {padding: 8px}
+
+button {
+    background-color: #343a40;
+    font-size: small;
+}
+
+a{
+    color: white;
+}
+
+.btn-outline-success:hover {
+    color: #343a40;
+    background-color: #fff;
+    border-color: #fff;
+}
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+h1 {
+    background-color: #343a40 !important;
+    color: white;
+    text-align: center;
+}
+
+/*.stickersbg{
+    background-image: url(img/stickers.jpg);
+}*/
 
 .slide{width: 100%;
     height: auto;
@@ -14,11 +49,13 @@ body {background-position: center;
 
 #slider{width: 100%;
     height: auto;
-    margin: 5px auto;
+
     position: relative;
-    border: 5px solid white;
-    border-radius: 10px;
-    box-shadow:0px 0px 5px 2px #ccc;
+    margin: 5px auto;
+
+    /*border: 5px solid white;
+    border-radius: 10px;*/
+    /*box-shadow:0px 0px 5px 2px #ccc;*/
     padding: 0;}
 
 .center {
