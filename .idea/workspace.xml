@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="" />
+    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +17,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1s2tvq3S94ZS7dy9yXIEBhrXezP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +32,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="D:/crx62/xaamp/php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Firefox Remote.Test">
+  <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration name="Test" type="FirefoxRemoteDebugType">
       <method v="2" />
     </configuration>
@@ -54,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620082745862</updated>
       <workItem from="1620082747026" duration="1702000" />
-      <workItem from="1620084491426" duration="120000" />
+      <workItem from="1620084491426" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="uhm">
       <created>1620083760644</created>
@@ -63,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620083760644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change pages">
+      <created>1620084760385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620084760385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +98,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uhm" />
-    <option name="LAST_COMMIT_MESSAGE" value="uhm" />
+    <MESSAGE value="change pages" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

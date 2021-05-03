@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="8404d68d-f4a8-418c-8231-81375dc8c8bc" name="XAMMP Apache" url="http://localhost/SkateboardingShop">
+      <webServer id="8404d68d-f4a8-418c-8231-81375dc8c8bc" name="XAMMP Apache" url="http://localhost/">
         <fileTransfer mountedRoot="D:\crx62\xaamp\htdocs" accessType="MOUNT" port="0" />
       </webServer>
     </option>
