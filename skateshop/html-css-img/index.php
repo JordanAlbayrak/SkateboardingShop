@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+<?php
+session_start();
+$_SESSION['username'] = "";
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +16,13 @@
         Skater Crew
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "http://localhost/SkateboardingShop/skateshop/dbConection_Login_Registration/login.php"class = "mr-2">Log in</a></button>
+        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php"class = "mr-2">Log in</a></button>
         </br>
-        <button style = "width: 100%" class="mr-1"><a href = "http://localhost/SkateboardingShop/skateshop/dbConection_Login_Registration/entry.php"class = "mr-2">Shopping Cart</a></button>
+<<<<<<< Updated upstream:skateshop/html-css-img/index.html
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php"class = "mr-2">Shopping Cart</a></button>
+=======
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php"class = "mr-2">Shop Cart</a></button>
+>>>>>>> Stashed changes:skateshop/html-css-img/index.php
     </div>
 </div>
     <div class="container-fluid">
@@ -26,7 +34,7 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item active" >
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.html">Home</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.php">Home</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#ourproducts">Our Products</a>
                             <a class="dropdown-item" href="#ourclients">Our Clients</a>
@@ -34,10 +42,14 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href = "shop.html">Shop</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="skateboards.php">Skateboards</a>
+                            <a class="dropdown-item" href="longboards.php">Longboards</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href = "contact.html">Contact</a>
+                        <a class="nav-link" href = "contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="float-right">
@@ -51,9 +63,12 @@
 
         <!--Image slider-->
 
-        <div class="row">
-            <div class = "extrainfo col-sm-12 col-md-3 col-lg-3"></div>
-                <div class = "col-sm-12 col-md-6 col-lg-6" id = "slider">
+        <div class="row stickersbg">
+            <!--<div class = "col-sm-* col-md-* col-lg-3">
+                <img class = "img-fluid" src="img\stickers1.png" alt="stickers"/>
+            </div>-->
+
+                <div class = "mh-25 col-sm-12 col-md-12 col-lg-6" id = "slider">
 
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -85,8 +100,10 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-            <div class = "col-sm-12 col-md-3 col-lg-3"></div>
+            </div>
+            <!--<div class = "col-sm-* col-md-* col-lg-3">
+                <img class = "img-fluid" src="img\stickers2.png" alt="stickers2"/>
+            </div>-->
         </div>
 
         <!-- OUR PRODUCTS Section -->
@@ -96,28 +113,16 @@
         <div class="row">
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide1.jpg" alt="First Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
+                <img class = "img-fluid" src="img\longboards.jpg" alt="longboards" />
+                <div class="txt">
+                    <h1><a href="longboards.php">Longboards</a></h1>
                 </div>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide1.jpg" alt="First Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
+                <img class = "img-fluid" src="img\skateboards.jpg" alt="skateboards" />
+                <div class="txt">
+                    <h1><a href="longboards.php">Skateboards</a></h1>
                 </div>
             </div>
 
@@ -130,27 +135,31 @@
         <div class="row">
             <div class = "col-sm-12 col-md-12 col-lg-6">
                 <img class = "img-fluid" src="img\slide2.jpg" alt="Second Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
+                <div class="txt">
+                    <p>
+                        Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
+                        I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
+                        So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
+                        I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
+                        So class is not mandatory these 2 classes but I will be available.
+                        Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
+                        You would have to notify me via Mio if you decide to do this.
+                    </p>
                 </div>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
                 <img class = "img-fluid" src="img\slide2.jpg" alt="Second Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
+                <div class="txt">
+                    <p>
+                        Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
+                        I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
+                        So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
+                        I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
+                        So class is not mandatory these 2 classes but I will be available.
+                        Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
+                        You would have to notify me via Mio if you decide to do this.
+                    </p>
                 </div>
             </div>
         </div>
@@ -162,29 +171,20 @@
         </div>
         <div class="row">
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide3.jpg" alt="Third Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
-                </div>
+                <video width="600" controls>
+                    <source src="vids/skateVid.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide3.jpg" alt="Third Slide" />
-                <div>
-                    Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                    I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                    So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                    I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                    So class is not mandatory these 2 classes but I will be available.
-                    Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                    You would have to notify me via Mio if you decide to do this.
-                </div>
+                <video width="600" controls>
+                    <source src="vids/skateVid2.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+            <div class = "col-sm-12 col-md-12 col-lg-12">
+                <img class = "img-fluid" src="img\SkateShoesPic2.jpg" alt="Second Slide" />
             </div>
         </div>
 

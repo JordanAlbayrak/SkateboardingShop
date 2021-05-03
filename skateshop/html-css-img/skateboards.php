@@ -13,16 +13,12 @@ $_SESSION['username'] = "";
 <body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew Contact
+        Skater Crew Skateboards
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
         <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php"class = "mr-2">Log in</a></button>
         </br>
-<<<<<<< Updated upstream:skateshop/html-css-img/contact.php
-        <button style = "width: 100%" class="mr-1"><a href = "http://localhost/php_final/Skateboarding_Shop_php/entry.php"class = "mr-2">Shopping Cart</a></button>
-=======
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shop Cart</a></button>
->>>>>>> Stashed changes:skateshop/html-css-img/contact.html
+        <button style = "width: 100%" class="mr-1"><a href = ../dbConection_Login_Registration/entry.php class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">
@@ -33,19 +29,19 @@ $_SESSION['username'] = "";
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.html">Home</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.html#ourproducts">Our Products</a>
-                        <a class="dropdown-item" href="index.html#ourclients">Our Clients</a>
-                        <a class="dropdown-item" href="index.html#aboutus">About Us</a>
-                    </div>
-                </li >
                 <li class="nav-item" >
-                    <a class="nav-link" href = "shop.html">Shop</a>
+                    <a class="nav-link" href = "index.php">Home</a>
+
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href = "contact.html">Contact</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="skateboards.php">Skateboards</a>
+                        <a class="dropdown-item" href="longboards.php">Longboards</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href = "contact.php">Contact</a>
                 </li>
             </ul>
             <div class="float-right">
