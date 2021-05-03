@@ -36,7 +36,7 @@ if (!isset($_SESSION["username"])) {
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="index.html#ourproducts">Our Products</a>
                         <a class="dropdown-item" href="index.html#ourclients">Our Clients</a>
-                        <a class="dropdown-item" href="index.html#aboutus">About Us</a>
+                        <a class="dropdow   n-item" href="index.html#aboutus">About Us</a>
                     </div>
                 </li >
                 <li class="nav-item">
