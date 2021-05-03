@@ -16,13 +16,10 @@ $_SESSION['username'] = "";
         Skater Crew
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php"class = "mr-2">Log in</a></button>
-        </br>
-<<<<<<< Updated upstream:skateshop/html-css-img/index.html
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php"class = "mr-2">Shopping Cart</a></button>
-=======
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php"class = "mr-2">Shop Cart</a></button>
->>>>>>> Stashed changes:skateshop/html-css-img/index.php
+        <button style = "width: 100%" class="mt-1 mr-1"><a href ="../dbConection_Login_Registration/login.php" class = "mr-2">Log in</a></button>
+        <br>
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shopping Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
     <div class="container-fluid">
