@@ -1,7 +1,3 @@
-<?php
-session_start();
-$_SESSION['username'] = "";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +12,9 @@ $_SESSION['username'] = "";
         Skater Crew Skateboards
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php"class = "mr-2">Log in</a></button>
+        <button style = "width: 100%" class="mt-1 mr-1"><a href = "http://localhost/php_final/Skateboarding_Shop_php/login.php"class = "mr-2">Log in</a></button>
         </br>
-        <button style = "width: 100%" class="mr-1"><a href = ../dbConection_Login_Registration/entry.php class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "http://localhost/php_final/Skateboarding_Shop_php/entry.php"class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">
