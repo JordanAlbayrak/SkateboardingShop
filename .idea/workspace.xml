@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,17 +32,10 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
-    <configuration name="Test" type="FirefoxRemoteDebugType">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SkateboardingShop/skateshop/html-css-img/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Firefox Remote.Test" />
-      <item itemvalue="JavaScript Debug.index.php" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.php" />
@@ -62,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620082745862</updated>
       <workItem from="1620082747026" duration="1702000" />
-      <workItem from="1620084491426" duration="1360000" />
+      <workItem from="1620084491426" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="uhm">
       <created>1620083760644</created>
@@ -78,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620084760385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WORKS">
+      <created>1620085890467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620085890467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +96,8 @@
     <MESSAGE value="uhm" />
     <MESSAGE value="change pages" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="WORKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="WORKS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
