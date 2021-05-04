@@ -1,3 +1,7 @@
+<?php
+include("../dbConection_Login_Registration/_dbConnetion.php");
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +16,13 @@
         Skater Crew Shop
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php" class = "mr-2">Log in</a></button>
-        <br>
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shopping Cart</a></button>
+        <?php
+        if(isset($_SESSION['username']))
+            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
+        else
+            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
+        ?>
+        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
     <div class="container-fluid">

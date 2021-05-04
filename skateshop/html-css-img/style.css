@@ -8,6 +8,7 @@ body {background-image: url(img/stickers.jpg);
     font-family: Times New Roman, Helvetica, sans-serif;}
 
 .txt {background-color: white;}
+
 p {padding: 8px}
 
 button {
@@ -17,6 +18,11 @@ button {
 
 a{
     color: white;
+}
+
+a.logout {
+    color: black;
+    text-decoration: none;
 }
 
 .btn-outline-success:hover {
