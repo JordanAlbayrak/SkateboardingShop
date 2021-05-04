@@ -12,10 +12,9 @@
         Skater Crew
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "http://localhost/php_final/Skateboarding_Shop_php/login.php" class = "mr-2">Log in</a></button>
+        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php" class = "mr-2">Log in</a></button>
         <br>
-        <button style = "width: 100%" class="mr-1"><a href = "http://localhost/php_final/Skateboarding_Shop_php/entry.php" class = "mr-2">Shopping Cart</a></button>
-        <button style = "width: 100%" class="mr-1"><a href = "http://localhost/SkateboardingShop/skateshop/dbConection_Login_Registration/entry.php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
     <div class="container-fluid">
@@ -106,14 +105,14 @@
         <div class="row">
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\longboards.jpg" alt="longboards" />
+                <img class = "center img-fluid" src="img\longboards.jpg" alt="longboards" />
                 <div class="txt">
                     <h1><a href="longboards.php">Longboards</a></h1>
                 </div>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\skateboards.jpg" alt="skateboards" />
+                <img class = "center img-fluid" src="img\skateboards.jpg" alt="skateboards" />
                 <div class="txt">
                     <h1><a href="longboards.php">Skateboards</a></h1>
                 </div>
@@ -164,14 +163,14 @@
         </div>
         <div class="row">
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <video width="600" controls>
+                <video width="600" class="center" controls>
                     <source src="vids/skateVid.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <video width="600" controls>
+                <video width="600" class="center"  controls>
                     <source src="vids/skateVid2.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>

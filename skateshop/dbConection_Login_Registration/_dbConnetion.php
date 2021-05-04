@@ -7,19 +7,12 @@
 
     $conn = mysqli_connect( $dbhost, $dbuser,$dbpass,$db);
 
-    if(! $conn){
+    if(!$conn){
         die('Could not connect connect: ') ;
     }
 
-    echo 'Successfully Connected';
-
     $sql_query = "USE ". $db;
-    if ($conn->query($sql_query) === TRUE) {
-        echo "Database created successfully";
-    }
-    else {
-        echo "Error creating database: " . $conn->error;
-    }
+
     $sql_query = "CREATE TABLE IF NOT EXISTS users_tl(
     id INT auto_increment NOT NULL,b
     firstName varchar(125),
@@ -30,12 +23,5 @@
     primary key(ID)
     )";
 
-    if ($conn ->query($sql_query) === TRUE) {
-        echo "\nTable created successfully";
-    }
-    else{
-        echo "Error creating table: " . $conn->error;
-    }
-    //mysqli_close($conn);
-
+    $conn ->query($sql_query);
 ?>
