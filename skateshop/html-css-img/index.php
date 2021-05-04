@@ -11,26 +11,26 @@ session_start();
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body class = "mb-5">
-<div class ="row bg-white ">
-    <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew
-    </header>
-    <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <?php
-        if(isset($_SESSION['username']))
-            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
-        else
-            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
-        ?>
-        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+    <div class ="row ">
+        <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
+            Skater Crew
+        </header>
+        <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
+            <?php
+            if(isset($_SESSION['username']))
+                echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
+            else
+                echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
+            ?>
+            <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+        </div>
     </div>
-</div>
     <div class="container-fluid">
 
         <!--NAVIGATION MENU-->
 
-        <div class = "row bg-white p-0">
-            <nav class="justify-content-between navbar navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: orange">
+        <div class = "row p-0">
+            <nav class="justify-content-between navbar navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: #FECF6A">
 
                 <ul class="navbar-nav">
                     <li class="nav-item active" >
@@ -101,8 +101,9 @@ session_start();
             </div>-->
         </div>
 
+        <div class="backgorund round">
         <!-- OUR PRODUCTS Section -->
-        <div class="row">
+        <div class="row no-margin">
         <h1 class = "col-sm-12 col-md-12 col-lg-12">Our Products</h1>
         </div>
         <div class="row">
@@ -123,45 +124,10 @@ session_start();
 
 
         </div>
-        <!-- OUR CLIENTS Section -->
-        <div class="row">
-            <h1 class = "col-sm-12 col-md-12 col-lg-12">Our Clients</h1>
-        </div>
-        <div class="row">
-            <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide2.jpg" alt="Second Slide" />
-                <div class="txt">
-                    <p>
-                        Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                        I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                        So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                        I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                        So class is not mandatory these 2 classes but I will be available.
-                        Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                        You would have to notify me via Mio if you decide to do this.
-                    </p>
-                </div>
-            </div>
-
-            <div class = "col-sm-12 col-md-12 col-lg-6">
-                <img class = "img-fluid" src="img\slide2.jpg" alt="Second Slide" />
-                <div class="txt">
-                    <p>
-                        Hi all, I want to use the "Student Success Week" in a creative way - so that it actually will help you in your progression.
-                        I think the thing you need MOST time on is your game project (I really want it to be a GOOD game at the end).
-                        So I will allow you to work on this for this week and we will use the class time for help with your projects, if you need it.
-                        I'll be online at the class times - and if you need help just pass by and ask your technical or design questions for the game.
-                        So class is not mandatory these 2 classes but I will be available.
-                        Also, I did say I'd accept one lab late - with a penalty.  So if you have any labs you need to catch up on , you can send it in.
-                        You would have to notify me via Mio if you decide to do this.
-                    </p>
-                </div>
-            </div>
-        </div>
 
         <!-- ABOUT US Section -->
 
-        <div class="row">
+        <div class="row no-margin">
             <h1 class = "col-sm-12 col-md-12 col-lg-12">About Us</h1>
         </div>
         <div class="row">
@@ -182,6 +148,7 @@ session_start();
                 <img class = "img-fluid" src="img\SkateShoesPic2.jpg" alt="Second Slide" />
             </div>
         </div>
+    </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

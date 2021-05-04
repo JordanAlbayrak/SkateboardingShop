@@ -57,7 +57,7 @@ if (!isset($_SESSION["username"])) {
         echo '<h2>Welcome - ' . $_SESSION["username"] . '</h2>';
         echo '<br><h3> Shopping Cart </h3>';
 
-        echo '<label><a class="logout" href="../dbConection_Login_Registration/logout.php">Logout</a></label>';
+        echo '<label><a href="../dbConection_Login_Registration/logout.php">Logout</a></label>';
         ?>
     </div>
 
