@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/_dbConnetion.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/_dbConnetion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/longboards.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/longboards.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/shop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/skateboards.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/skateboards.php" afterDir="false" />
-    </list>
+    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620097746048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" &#10;Added tables">
+      <created>1620105773469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620105773469</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +166,8 @@
     <MESSAGE value="Update some links&#10;small changes" />
     <MESSAGE value="big changes! lol" />
     <MESSAGE value="?" />
-    <option name="LAST_COMMIT_MESSAGE" value="?" />
+    <MESSAGE value=" &#10;Added tables" />
+    <option name="LAST_COMMIT_MESSAGE" value=" &#10;Added tables" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
