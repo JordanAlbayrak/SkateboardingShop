@@ -7,20 +7,20 @@ if (!isset($_SESSION["username"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UrTF-8">
     <title>Skaters Crew</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" type ="text/css" href = "style.css">
 </head>
 <body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew Cart
+        Skater Crew Contact
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mt-1 mr-1"><a href = "login.html"class = "mr-2">Log in</a></button>
-        </br>
-        <button style = "width: 100%" class="mr-1"><a href = "cart.html"class = "mr-2">Shopping Cart</a></button>
+        <button style = "width: 100%" class="mt-1 mr-1"><a href = "../dbConection_Login_Registration/login.php" class = "mr-2">Log in</a></button>
+        <br>
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/entry.php" class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">
@@ -31,19 +31,18 @@ if (!isset($_SESSION["username"])) {
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.html">Home</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="index.html#ourproducts">Our Products</a>
-                        <a class="dropdown-item" href="index.html#ourclients">Our Clients</a>
-                        <a class="dropdown-item" href="index.html#aboutus">About Us</a>
-                    </div>
-                </li >
-                <li class="nav-item">
-                    <a class="nav-link" href = "shop.html">Shop</a>
+                <li class="nav-item" >
+                    <a class="nav-link" href = "index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href = "contact.html">Contact</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="skateboards.php">Skateboards</a>
+                        <a class="dropdown-item" href="longboards.php">Longboards</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href = "contact.php">Contact</a>
                 </li>
             </ul>
             <div class="float-right">
@@ -55,14 +54,13 @@ if (!isset($_SESSION["username"])) {
         </nav>
     </div>
     <div class = "text-center">
-    <?php
-    echo '<h2>Welcome - ' . $_SESSION["username"] . '</h2>';
-    echo '<br><h3> Shopping Cart </h3>';
+        <?php
+        echo '<h2>Welcome - ' . $_SESSION["username"] . '</h2>';
+        echo '<br><h3> Shopping Cart </h3>';
 
-    echo '<label><a href="logout.php">Logout</a></label>';
-    ?>
-</div>
-
+        echo '<label><a href="logout.php">Logout</a></label>';
+        ?>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 </body>

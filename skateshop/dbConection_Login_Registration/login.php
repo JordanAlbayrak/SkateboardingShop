@@ -33,10 +33,7 @@ $_SESSION['username'] = "";
     </form>
 
     <?php
-    if(empty($_POST['username']) && empty($_POST['password'])) {
-        echo "<script>alert(\"Please input information in both fields\")</script>";
-    }
-    else{
+    if(!empty($_POST['username']) && !empty($_POST['password'])) {
         $username = $_POST['username'];
         $pw = $_POST['password'];
 
@@ -52,6 +49,9 @@ $_SESSION['username'] = "";
         else {
             echo "<script>alert(\"Wrong User Details\")</script>";
         }
+    }
+    else{
+        echo "<script>alert(\"Please input information in both fields\")</script>";
     }
 
 

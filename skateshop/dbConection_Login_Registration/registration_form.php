@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['username'] = "";
+include("_dbConnetion.php");
+?>
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +20,7 @@
     <br />
     <h3 align="center">Login</h3>
     <br />
-    <form method="post" action="registration.php">
+    <form method="post" action="registration_form.php">
         <label>Enter Username</label>
         <input type="text" name="username" class="form-control" />
         <br />
@@ -32,6 +37,29 @@
         <br />
         <p align="center"><a href="login.php">Login</a></p>
     </form>
+
+    <?php
+    $username = $_POST['username'];
+    $pw = $_POST['password'];
+    $firstname = $_POST['firstName'];
+    $lastname = $_POST['lastName'];
+    $email = $_POST['email'];
+
+
+    if(!empty($_POST['username']) && !empty($_POST['password'])) {
+        $query = "INSERT INTO users_tbl(firstName, lastName, username, password, email)
+                    VALUES('". $firstname . "','" . $lastname . "','" . $username . "','" . $pw . "','" . $email ."')";
+
+        if($conn->query($query) === TRUE){
+            $_SESSION['username'] = $username;
+            header("Location:entry.php");
+        }
+    }
+    else{
+        echo "<script>alert(\"Please input some information\")</script>";
+        echo "<p><a href=\"login.php\">Go back</a></p>";
+    }
+    ?>
 
 </div>
 </body>

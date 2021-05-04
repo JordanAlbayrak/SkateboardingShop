@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Skaters Crew</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" type = "text/css" href = "style.css">
 </head>
 <body class = "mb-5">
 <div class ="row bg-white ">
@@ -27,7 +27,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item" >
                     <a class="nav-link" href = "index.php">Home</a>
-
                 </li>
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>

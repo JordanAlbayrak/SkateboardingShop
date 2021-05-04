@@ -26,12 +26,7 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item active" >
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.php">Home</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#ourproducts">Our Products</a>
-                            <a class="dropdown-item" href="#ourclients">Our Clients</a>
-                            <a class="dropdown-item" href="#aboutus">About Us</a>
-                        </div>
+                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
