@@ -1,7 +1,6 @@
 <?php
 include("_dbConnetion.php");
 session_start();
-$_SESSION['username'] = "";
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +17,7 @@ $_SESSION['username'] = "";
         Skater Crew Login
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/shop    .php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
 </div>
 <br><br>

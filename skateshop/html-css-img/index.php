@@ -22,7 +22,7 @@ session_start();
             else
                 echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
             ?>
-            <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+            <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
         </div>
     </div>
     <div class="container-fluid">
@@ -30,10 +30,10 @@ session_start();
         <!--NAVIGATION MENU-->
 
         <div class = "row p-0">
-            <nav class="justify-content-between navbar navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: dimgrey;">
+            <nav class="justify-content-between navbar navbar-dark navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: dimgrey;">
 
                 <ul class="navbar-nav">
-                    <li class="nav-item active" >
+                    <li class="nav-item" >
                         <a class="link nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "../html-css-img/index.php">Home</a>
                     </li>
                     <li class="nav-item">
@@ -47,12 +47,6 @@ session_start();
                         <a class="link nav-link" href = "../html-css-img/contact.php">Contact</a>
                     </li>
                 </ul>
-                <div class="float-right">
-                <form class="nav-item form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                </div>
             </nav>
         </div>
 

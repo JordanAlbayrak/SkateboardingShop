@@ -19,7 +19,7 @@ if (!isset($_SESSION["username"])) {
         Skater Crew Contact
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">
@@ -44,12 +44,6 @@ if (!isset($_SESSION["username"])) {
                     <a class="nav-link" href = "contact.php">Contact</a>
                 </li>
             </ul>
-            <div class="float-right">
-                <form class="nav-item form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
         </nav>
     </div>
     <div class = "text-center txt">

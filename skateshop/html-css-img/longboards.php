@@ -15,14 +15,14 @@ session_start();
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
         Skater Crew Longboards
     </header>
-    <div class = "text-center col-sm-12 col-md-2 col-lg-1">
+    <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
         <?php
         if(isset($_SESSION['username']))
             echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
         else
             echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
         ?>
-        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">

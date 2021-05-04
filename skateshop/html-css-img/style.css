@@ -4,7 +4,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;/**/
-    font-family: Lucida Handwriting;
+    font-family: Copperplate Gothic Bold,Lucida Handwriting;
 }
 
 .txt {background-color: white;}
@@ -33,7 +33,7 @@ a:hover{
 }
 
 .backgorund{
-    background-color: dimgray;
+    background-color: #343a40;
     margin-left: 3%;
     margin-right: 3%;
 }

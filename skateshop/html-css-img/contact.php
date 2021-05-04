@@ -22,7 +22,7 @@ session_start();
         else
             echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
         ?>
-        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
 </div>
 <div class="container-fluid">
@@ -47,12 +47,6 @@ session_start();
                     <a class="nav-link" href = "contact.php">Contact</a>
                 </li>
             </ul>
-            <div class="float-right">
-                <form class="nav-item form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
         </nav>
     </div>
 
