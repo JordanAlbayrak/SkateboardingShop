@@ -15,10 +15,10 @@ $_SESSION['username'] = "";
 <body class="mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew Contact
+        Skater Crew Login
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1">
-        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/shop.php" class = "mr-2">Shop Cart</a></button>
+        <button style = "width: 100%" class="mr-1"><a href = "../dbConection_Login_Registration/shop    .php" class = "mr-2">Shop Cart</a></button>
     </div>
 </div>
 <br><br>

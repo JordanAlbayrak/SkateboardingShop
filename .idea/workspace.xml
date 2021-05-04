@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="" />
+    <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/registration_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/registration_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620082745862</updated>
       <workItem from="1620082747026" duration="1702000" />
-      <workItem from="1620084491426" duration="13123000" />
+      <workItem from="1620084491426" duration="15520000" />
     </task>
     <task id="LOCAL-00001" summary="uhm">
       <created>1620083760644</created>
@@ -109,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620093312260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="?">
+      <created>1620097746048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620097746048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +150,8 @@
     <MESSAGE value="Update some links" />
     <MESSAGE value="Update some links&#10;small changes" />
     <MESSAGE value="big changes! lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="big changes! lol" />
+    <MESSAGE value="?" />
+    <option name="LAST_COMMIT_MESSAGE" value="?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

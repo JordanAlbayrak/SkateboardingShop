@@ -15,7 +15,7 @@ session_start();
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
         Skater Crew Contact
     </header>
-    <div class = "text-center col-sm-12 col-md-2 col-lg-1">
+    <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
         <?php
         if(isset($_SESSION['username']))
             echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";

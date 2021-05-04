@@ -2,6 +2,11 @@
 session_start();
 $_SESSION['username'] = "";
 include("_dbConnetion.php");
+$username = "";
+$email = "";
+$lastname = "";
+$firstname = "";
+$pw = "";
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,12 +57,11 @@ include("_dbConnetion.php");
 
         if($conn->query($query) === TRUE){
             $_SESSION['username'] = $username;
-            header("Location:entry.php");
+            header("Location:../html-css-img/index.php");
         }
     }
     else{
         echo "<script>alert(\"Please input some information\")</script>";
-        echo "<p><a href=\"login.php\">Go back</a></p>";
     }
     ?>
 

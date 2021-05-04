@@ -30,21 +30,21 @@ session_start();
         <!--NAVIGATION MENU-->
 
         <div class = "row p-0">
-            <nav class="justify-content-between navbar navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: #FECF6A">
+            <nav class="justify-content-between navbar navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: dimgrey;">
 
                 <ul class="navbar-nav">
                     <li class="nav-item active" >
-                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "../html-css-img/index.php">Home</a>
+                        <a class="link nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "../html-css-img/index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="../html-css-img/skateboards.php">Skateboards</a>
                             <a class="dropdown-item" href="../html-css-img/longboards.php">Longboards</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href = "../html-css-img/contact.php">Contact</a>
+                        <a class="link nav-link" href = "../html-css-img/contact.php">Contact</a>
                     </li>
                 </ul>
                 <div class="float-right">
@@ -86,11 +86,11 @@ session_start();
                                 <img src="img\slide3.jpg" alt="Third Slide" class = "slide center"/>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <a style="width: 5%" class="link carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                        <a style="width: 5%" class="link carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -110,15 +110,15 @@ session_start();
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
                 <img class = "center img-fluid" src="img\longboards.jpg" alt="longboards" />
-                <div class="txt">
-                    <h1><a href="longboards.php">Longboards</a></h1>
+                <div>
+                    <h1 style="border-top-right-radius: 15px;border-bottom-right-radius: 15px"><a class="link" href="longboards.php">Longboards</a></h1>
                 </div>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
                 <img class = "center img-fluid" src="img\skateboards.jpg" alt="skateboards" />
-                <div class="txt">
-                    <h1><a href="longboards.php">Skateboards</a></h1>
+                <div>
+                    <h1 style="border-top-left-radius: 15px;border-bottom-left-radius: 15px"><a class="link" href="longboards.php">Skateboards</a></h1>
                 </div>
             </div>
 
@@ -132,14 +132,14 @@ session_start();
         </div>
         <div class="row">
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <video width="600" class="center" controls>
+                <video width="600" class="center roundV" controls>
                     <source src="vids/skateVid.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>
             </div>
 
             <div class = "col-sm-12 col-md-12 col-lg-6">
-                <video width="600" class="center"  controls>
+                <video width="600" class="center roundV"  controls>
                     <source src="vids/skateVid2.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>
