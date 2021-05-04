@@ -30,7 +30,7 @@ session_start();
         <!--NAVIGATION MENU-->
 
         <div class = "row p-0">
-            <nav class="justify-content-between navbar navbar-dark navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12" style="background-color: dimgrey;">
+            <nav class="justify-content-between navbar bg-dark navbar-dark navbar-expand-sm mx-0 col-sm-12 col-md-12 col-lg-12">
 
                 <ul class="navbar-nav">
                     <li class="nav-item" >

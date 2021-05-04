@@ -26,7 +26,7 @@ if (!isset($_SESSION["username"])) {
 
     <!--NAVIGATION MENU-->
 
-    <div class = "row bg-white p-0">
+    <div class = "row p-0">
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">

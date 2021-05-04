@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="347b86cd-48db-4b7a-a2b9-bdb1319a0a9c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/registration_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/registration_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/_dbConnetion.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/dbConection_Login_Registration/_dbConnetion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/longboards.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/longboards.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skateshop/html-css-img/skateboards.php" beforeDir="false" afterPath="$PROJECT_DIR$/skateshop/html-css-img/skateboards.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/longboards.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/contact.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/shop.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/dbConection_Login_Registration/logout.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/dbConection_Login_Registration/login.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/dbConection_Login_Registration/registration_form.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/dbConection_Login_Registration/_dbConnetion.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/profile.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/skateshop/html-css-img/skateboards.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
@@ -46,6 +60,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SkateboardingShop/skateshop/html-css-img/index.php" useBuiltInWebServerPort="true">

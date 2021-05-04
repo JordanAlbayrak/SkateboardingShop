@@ -29,22 +29,22 @@ session_start();
 
     <!--NAVIGATION MENU-->
 
-    <div class = "row bg-white p-0">
+    <div class = "row p-0">
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">
                 <li class="nav-item" >
-                    <a class="nav-link" href = "index.php">Home</a>
+                    <a class="link nav-link" href = "index.php">Home</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <li class="nav-item">
+                    <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="skateboards.php">Skateboards</a>
                         <a class="dropdown-item" href="longboards.php">Longboards</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href = "contact.php">Contact</a>
+                    <a class="link nav-link" href = "contact.php">Contact</a>
                 </li>
             </ul>
             <div class="float-right">
