@@ -13,7 +13,7 @@ session_start();
 <body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew Longboards
+        Skater Crew Skateboards
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
         <?php
@@ -29,14 +29,14 @@ session_start();
 
     <!--NAVIGATION MENU-->
 
-    <div class = "row p-0">
+    <div class = "row bg-white p-0">
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">
                 <li class="nav-item" >
                     <a class="link nav-link" href = "index.php">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="skateboards.php">Skateboards</a>
@@ -55,7 +55,29 @@ session_start();
             </div>
         </nav>
     </div>
+    <div class="row mt-10">
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/riviera.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/santacruz1.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/omen.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/prism.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
 
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>

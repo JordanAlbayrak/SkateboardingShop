@@ -9,7 +9,18 @@ session_start();
     <title>Skaters Crew</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" type = "text/css" href = "style.css">
+
+    <script>
+        function PlaySound() {
+            alert("Do a kickflip");
+            var sound = new audio();
+            sound.src = "vids/kickflip.mp3";
+            document.getElementById(sound);
+            sound.Play();
+        }
+    </script>
 </head>
+
 <body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
@@ -48,6 +59,37 @@ session_start();
                 </li>
             </ul>
         </nav>
+    </div>
+
+    <div class="row mt-10">
+        <div class=" text-center col-sm-12 col-md-6 col-lg-3">
+            <a href="https://www.instagram.com/berrics/">
+            <img src="img/instagram.png" alt="Instagram">
+            </a>
+
+        </div>
+        <div class=" text-center col-sm-12 col-md-6 col-lg-3">
+            <a href="https://www.facebook.com/berrics/">
+            <img src="img/facebook.png" alt="Facebook">
+            </a>
+
+        </div>
+        <div class=" text-center col-sm-12 col-md-6 col-lg-3">
+            <a href="https://www.amazon.ca/Bible-King-James-Testaments-Annotated-ebook/dp/B0883FS623/ref=sr_1_6?dchild=1&keywords=bible&qid=1621108226&sr=8-6">
+            <img src="img/amazon.png" alt="Amazon">
+            </a>
+        </div>
+        <div class=" text-center col-sm-12 col-md-6 col-lg-3">
+
+            <a onclick="PlaySound">
+            <img src="img/tony.png" alt="Tony">
+            <audio id="sound"> </audio>
+            </a>
+            <audio controls autoplay>
+                <source src="vids/kickflip.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
     </div>
 
 
