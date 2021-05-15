@@ -1,27 +1,30 @@
 <?php
-include("_dbConnetion.php");
+include("../dbConection_Login_Registration/_dbConnetion.php");
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Skaters Crew</title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel = "stylesheet" type = "text/css" href = "../html-css-img/style.css">
 </head>
-
-<body class="mb-5">
+<body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
         Skater Crew Login
     </header>
-    <div class = "text-center col-sm-12 col-md-2 col-lg-1">
+    <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
+        <?php
+        if(isset($_SESSION['username']))
+            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
+        else
+            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
+        ?>
         <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
 </div>
-<br><br>
-
 <div class="container-fluid">
 
     <!--NAVIGATION MENU-->
@@ -30,33 +33,28 @@ session_start();
         <nav class="justify-content-between navbar navbar-expand-sm bg-dark navbar-dark mx-0 col-sm-12 col-md-12 col-lg-12">
 
             <ul class="navbar-nav">
-                <li class="nav-item active" >
-                    <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "../html-css-img/index.php">Home</a>
+                <li class="nav-item" >
+                    <a class="link nav-link" href = "../html-css-img/index.php">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <li class="nav-item active">
+                    <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../html-css-img/skateboards.php">Skateboards</a>
                         <a class="dropdown-item" href="../html-css-img/longboards.php">Longboards</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href = "../html-css-img/contact.php">Contact</a>
+                    <a class="link nav-link" href = "../html-css-img/contact.php">Contact</a>
                 </li>
             </ul>
-            <div class="float-right">
-                <form class="nav-item form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+
         </nav>
     </div>
     <br />
     <h3 align="center">Login</h3>
     <br />
-    <div class="center container" style="width: 30%">
-        <form method="post" action="login.php">
+    <div class="bg-warning border border-danger center container" style="width: 30%">
+        <form class="" method="post" action="login.php">
             <label>Enter Username</label>
             <input type="text" name="username" class="form-control" style="width:40%%" />
             <br />
@@ -65,7 +63,7 @@ session_start();
             <br />
             <input type="submit" name="login" value="Login" class="btn btn-info" />
             <br />
-            <p align="center"><a href="registration_form.php">Register</a></p>
+            <p align="center"><a href="../html-css-img/registration_form.php">Register</a></p>
         </form>
     </div>
     <?php
