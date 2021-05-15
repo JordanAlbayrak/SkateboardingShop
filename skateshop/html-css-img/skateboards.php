@@ -55,7 +55,29 @@ session_start();
             </div>
         </nav>
     </div>
+    <div class="row mt-10">
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/baker.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/deathwish.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/element.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
+        <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
+            <img class="bg-warning" src="img/santacruz.png" alt="Baker Skateboard">
+            <br>
+            <button type="button">Add to Cart</button>
+        </div>
 
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>

@@ -1,0 +1,57 @@
+<?xml version= "1.0"?>
+<tanks>
+    <stats>
+        <name>Stuart</name>
+        <model>Model: M3</model>
+        <type>Type: Light Tank</type>
+        <manufacturer>Manufacturer: General Motors</manufacturer>
+        <gun>Gun: 37 mm Gun M6</gun>
+        <speed>Speed: 36 mph (58 km/h)</speed>
+        <cost>Cost: $60,000</cost>
+    </stats>
+    <stats>
+        <name>M22</name>
+        <model>Model: M22</model>
+        <type>Type: Airborne Light Tank</type>
+        <manufacturer>Manufacturer: Marmon-Herrington</manufacturer>
+        <gun>Gun: 1 × 37 mm Gun M6 </gun>
+        <speed>Speed: 40 mph (64 km/h)</speed>
+        <cost>Cost: $40,000</cost>
+    </stats>
+    <stats>
+        <name>Panzerkampfwagen</name>
+        <model>Model: Ausf. C</model>
+        <type>Type: Light Tank</type>
+        <manufacturer>Manufacturer: Henschel, MAN, Krupp, Daimler</manufacturer>
+        <gun>Guns: 2 × 7.92 mm MG13 machine guns </gun>
+        <speed>Speed: 37 km/h (23 mph)</speed>
+        <cost>Cost: $50,000</cost>
+    </stats>
+    <stats>
+        <name>Hanomag</name>
+        <model>Model: Ausf. A</model>
+        <type>Type: Armored Personnel Carrier</type>
+        <manufacturer>Manufacturer: Hanomag</manufacturer>
+        <gun>Gun: MG 34 </gun>
+        <speed>Speed: 52.5 km/h (32.5 mph)</speed>
+        <cost>Cost: $30,000</cost>
+    </stats>
+    <stats>
+        <name>Panzer38</name>
+        <model>Model: LT vz. 38</model>
+        <type>Type: Light Tank</type>
+        <manufacturer>Manufacturer: ČKD</manufacturer>
+        <gun>Gun: 37 mm KwK 38(t) L/47.8 </gun>
+        <speed>Speed: 42 km/h, 26.1 mph (road)</speed>
+        <cost>Cost: $45,000</cost>
+    </stats>
+    <stats>
+        <name>BT5</name>
+        <model>Model: BT</model>
+        <type>Type: Light Tank</type>
+        <manufacturer>Manufacturer: Malyshev Factory</manufacturer>
+        <gun>Gun: 45-mm Model 32 </gun>
+        <speed>Speed: 72 km/h (44.7 mph)</speed>
+        <cost>Cost: $47,500</cost>
+    </stats>
+</tanks>
