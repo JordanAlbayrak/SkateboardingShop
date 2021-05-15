@@ -11,21 +11,21 @@
       {
         "type": "Type: Skateboard",
         "brand": "Element",
-        "cost": "Cost: ~100,000$"
-      }
-    },
-    {"stats" :
-      {
-        "type": "Type: Longboard",
-        "brand": "Santa Cruz",
         "cost": "Cost: 70$"
       }
     },
     {"stats" :
       {
         "type": "Type: Longboard",
+        "brand": "Santa Cruz",
+        "cost": "Cost: 85$"
+      }
+    },
+    {"stats" :
+      {
+        "type": "Type: Longboard",
         "brand": "Deathwish",
-        "cost": "Cost: ~100,000$"
+        "cost": "Cost: 65$"
       }
     }
   ]
