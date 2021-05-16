@@ -1,6 +1,32 @@
 <?php
 include("../dbConection_Login_Registration/_dbConnetion.php");
 session_start();
+
+//$_SESSION['cart'] =[];
+if(!isset($_SESSION['cart']))
+{
+    $_SESSION['cart'] =[];
+}
+
+if(isset($_POST["santacruz"]))
+{
+
+    array_push($_SESSION['cart'], 4);
+}
+if(isset($_POST["element"]))
+{
+    array_push($_SESSION['cart'], 2);
+}
+if(isset($_POST["baker"]))
+{
+    array_push($_SESSION['cart'], 1);
+}
+if(isset($_POST["deathwish"]))
+{
+    array_push($_SESSION['cart'], 5);
+
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +39,7 @@ session_start();
 <body class = "mb-5">
 <div class ="row bg-white ">
     <header style = "padding-left: 9.09%" class = "text-center display-4 col-sm-12 col-md-10 col-lg-11">
-        Skater Crew Skateboards
+        Skater Crew Longboards
     </header>
     <div class = "text-center col-sm-12 col-md-2 col-lg-1" style="background-color: #FECF6A;">
         <?php
@@ -57,24 +83,32 @@ session_start();
     </div>
     <div class="row mt-10">
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/riviera.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/santacruz1.png" alt="Santa Cruz Longboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+                <button type="submit" name="santacruzL" id="santacruzL">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/santacruz1.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/omen.png" alt="Omen Longboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+                <button type="submit" name="omen" id="omen">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/omen.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/prism.png" alt="Prism Longboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+                <button type="submit" name="prism" id="prism">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/prism.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/riviera.png" alt="Riviera Longboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+                <button type="submit" name="riviera" id="riviera">Add to Cart</button>
+            </form>
         </div>
 
     </div>

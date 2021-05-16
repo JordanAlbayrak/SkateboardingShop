@@ -1,6 +1,32 @@
 <?php
 include("../dbConection_Login_Registration/_dbConnetion.php");
 session_start();
+
+//$_SESSION['cart'] =[];
+if(!isset($_SESSION['cart']))
+{
+    $_SESSION['cart'] =[];
+}
+
+if(isset($_POST["santacruz"]))
+{
+
+    array_push($_SESSION['cart'], 4);
+}
+if(isset($_POST["element"]))
+{
+    array_push($_SESSION['cart'], 2);
+}
+if(isset($_POST["baker"]))
+{
+    array_push($_SESSION['cart'], 1);
+}
+if(isset($_POST["deathwish"]))
+{
+    array_push($_SESSION['cart'], 5);
+
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -59,22 +85,30 @@ session_start();
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/baker.png" alt="Baker Skateboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+            <button type="submit" name="baker" id="baker">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/deathwish.png" alt="Baker Skateboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+            <button type="submit" name="deathwish" id="deathwish">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/element.png" alt="Baker Skateboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+            <button  type="submit" name="element" id="element">Add to Cart</button>
+            </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/santacruz.png" alt="Baker Skateboard">
             <br>
-            <button type="button">Add to Cart</button>
+            <form action="" method="post">
+            <button type="submit" name="santacruz" id="santacruz">Add to Cart</button>
+            </form>
         </div>
 
     </div>
