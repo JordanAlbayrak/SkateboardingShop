@@ -85,6 +85,21 @@ if(isset($_POST["deathwish"]))
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/baker.png" alt="Baker Skateboard">
             <br>
+            <div class="table-danger">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Brand</th>
+                        <th>Price</th>
+                        <th>Description</th>
+
+                    </tr>
+                    <tr>
+                        <th>Baker</th>
+                        <th>350$</th>
+                        <th>Multi Layered wood</th>
+                    </tr>
+                </table>
+            </div>
             <form action="" method="post">
             <button type="submit" name="baker" id="baker">Add to Cart</button>
             </form>
@@ -92,20 +107,67 @@ if(isset($_POST["deathwish"]))
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
             <img class="bg-warning" src="img/deathwish.png" alt="Baker Skateboard">
             <br>
+
+            <div class="table-danger">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Brand</th>
+                        <th>Price</th>
+                        <th>Description</th>
+
+                    </tr>
+                    <tr>
+                        <th>Deathwish</th>
+                        <th>250$</th>
+                        <th>Light-weight</th>
+                    </tr>
+                </table>
+            </div>
+
             <form action="" method="post">
             <button type="submit" name="deathwish" id="deathwish">Add to Cart</button>
             </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/element.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/element.png" alt="Element Skateboard">
             <br>
+            <div class="table-danger">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Brand</th>
+                        <th>Price</th>
+                        <th>Description</th>
+
+                    </tr>
+                    <tr>
+                        <th>Element</th>
+                        <th>300$</th>
+                        <th>Resistant to the Elements</th>
+                    </tr>
+                </table>
+            </div>
             <form action="" method="post">
             <button  type="submit" name="element" id="element">Add to Cart</button>
             </form>
         </div>
         <div class=" text-center item col-sm-12 col-md-6 col-lg-3">
-            <img class="bg-warning" src="img/santacruz.png" alt="Baker Skateboard">
+            <img class="bg-warning" src="img/santacruz.png" alt="Santa Cruz Skateboard">
             <br>
+            <div class="table-danger">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Brand</th>
+                        <th>Price</th>
+                        <th>Description</th>
+
+                    </tr>
+                    <tr>
+                        <th>Santa Cruz</th>
+                        <th>320$</th>
+                        <th>Nice for Cruzing</th>
+                    </tr>
+                </table>
+            </div>
             <form action="" method="post">
             <button type="submit" name="santacruz" id="santacruz">Add to Cart</button>
             </form>

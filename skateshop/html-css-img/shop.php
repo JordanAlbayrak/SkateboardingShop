@@ -79,17 +79,17 @@ $finalcart = array_unique($_SESSION['cart']);
 
                 <ul class="navbar-nav">
                     <li class="nav-item active" >
-                        <a class="link nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "../html-css-img/index.php">Home</a>
+                        <a class="link nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href = "index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../html-css-img/skateboards.php">Skateboards</a>
-                            <a class="dropdown-item" href="../html-css-img/profile.php">Longboards</a>
+                            <a class="dropdown-item" href="skateboards.php">Skateboards</a>
+                            <a class="dropdown-item" href="profile.php">Longboards</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href = "../html-css-img/contact.php">Contact</a>
+                        <a class="nav-link" href = "contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
