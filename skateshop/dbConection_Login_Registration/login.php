@@ -39,8 +39,8 @@ session_start();
                 <li class="nav-item active">
                     <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="../html-css-img/skateboards.php">Skateboards</a>
-                        <a class="dropdown-item" href="../html-css-img/longboards.php">Longboards</a>
+                        <a class="dropdown-item" href="skateboards.php">Skateboards</a>
+                        <a class="dropdown-item" href="longboards.php">Longboards</a>
                     </div>
                 </li>
                 <li class="nav-item">
