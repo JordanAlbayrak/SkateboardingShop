@@ -41,7 +41,7 @@
     <br />
     <h3 align="center">Login</h3>
     <br />
-    <form method="post" action="../html-css-img/registration_form.php">
+    <form method="post" action="../dbConection_Login_Registration/registration_form.php">
         <label>Enter Username</label>
         <input type="text" name="username" class="form-control" placeholder="Username..." />
         <br />

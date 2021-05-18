@@ -79,7 +79,7 @@ $finalcart = array_unique($_SESSION['cart']);
 
                 <ul class="navbar-nav">
                     <li class="nav-item" >
-                        <a class="link nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="index.php">Home</a>
+                        <a class="link nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="link nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>

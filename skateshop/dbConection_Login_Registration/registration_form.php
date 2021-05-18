@@ -13,8 +13,7 @@ include("_dbConnetion.php");
 
 
     if(isset($_POST['username']) && isset($_POST['password'])) {
-        $query = "INSERT INTO users_tbl(firstName, lastName, username, password, email)
- VALUES('". $firstname . "','" . $lastname . "','" . $username . "','" . $pw . "','" . $email ."')";
+        $query = "INSERT INTO users_tbl(firstName, lastName, username, password, email)VALUES('". $firstname . "','" . $lastname . "','" . $username . "','" . $pw . "','" . $email ."')";
 
         if($conn->query($query) === TRUE){
             $_SESSION['username'] = $username;
@@ -23,9 +22,8 @@ include("_dbConnetion.php");
         else{
 
             echo "<script>alert(\"Please input some information\")</script>";
-            header("Location:../html-css-img/registration_form.html");
+            header("Location:../html-css-img/registration_form.php");
         }
     }
-
     ?>
 

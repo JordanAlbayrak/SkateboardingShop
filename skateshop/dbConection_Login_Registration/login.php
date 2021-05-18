@@ -20,7 +20,7 @@ session_start();
         if(isset($_SESSION['username']))
             echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../html-css-img/profile.php\" class = \"mr-2\">" . strtoupper($_SESSION['username']) . "</a></button><br>";
         else
-            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"../dbConection_Login_Registration/login.php\" class = \"mr-2\">Login</a></button><br>";
+            echo "<button style = \"width: 100%\" class=\"mt-1 mr-1\"><a href = \"login.php\" class = \"mr-2\">Login</a></button><br>";
         ?>
         <button style = "width: 100%" class="mr-1"><a href = "../html-css-img/shop.php" class = "mr-2">Cart</a></button>
     </div>
